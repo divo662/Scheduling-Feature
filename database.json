@@ -1,0 +1,152 @@
+{
+  "users": [
+    {
+      "user_id": "mentor_01",
+      "role": "MENTOR",
+      "name": "Anita Sharma",
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "user_id": "mentor_02",
+      "role": "MENTOR",
+      "name": "Lucas Ferreira",
+      "timezone": "Brazil/Sao_Paulo"
+    },
+    {
+      "user_id": "mentee_01",
+      "role": "MENTEE",
+      "name": "Rahul Verma",
+      "timezone": "Asia/Kolkata"
+    }
+  ],
+  "mentor_weekly_availability": [
+    {
+      "mentor_id": "mentor_01",
+      "day_of_week": "MONDAY",
+      "slot_start": "14:00",
+      "slot_end": "15:00"
+    },
+    {
+      "mentor_id": "mentor_01",
+      "day_of_week": "MONDAY",
+      "slot_start": "16:00",
+      "slot_end": "17:00"
+    },
+    {
+      "mentor_id": "mentor_01",
+      "day_of_week": "MONDAY",
+      "slot_start": "14:00",
+      "slot_end": "15:00"
+    },
+    {
+      "mentor_id": "mentor_01",
+      "day_of_week": "WEDNESDAY",
+      "slot_start": "10:00",
+      "slot_end": "11:00"
+    },
+    {
+      "mentor_id": "mentor_01",
+      "day_of_week": "FRIDAY",
+      "slot_start": "15:00",
+      "slot_end": "16:00"
+    },
+    {
+      "mentor_id": "mentor_02",
+      "day_of_week": "TUESDAY",
+      "slot_start": "9:00",
+      "slot_end": "10:00"
+    },
+    {
+      "mentor_id": "mentor_02",
+      "day_of_week": "THURSDAY",
+      "slot_start": "14:00",
+      "slot_end": "15:00"
+    },
+    {
+      "mentor_id": "mentor_02",
+      "day_of_week": "THURSDAY",
+      "slot_start": "14:00",
+      "slot_end": "15:00"
+    },
+    {
+      "mentor_id": "mentor_02",
+      "day_of_week": "FRIDAY",
+      "slot_start": "16:00",
+      "slot_end": "17:00"
+    }
+  ],
+  "bookings": [
+    {
+      "booking_id": "booking_01",
+      "mentor_id": "mentor_01",
+      "mentee_id": "mentee_01",
+      "start_datetime": "2025-01-10T14:00+05:30",
+      "end_datetime": "2025-01-10T15:00+05:30",
+      "status": "CONFIRMED"
+    },
+    {
+      "booking_id": "booking_02",
+      "mentor_id": "mentor_01",
+      "mentee_id": "mentee_01",
+      "start_datetime": "2025-01-10T14:30+05:30",
+      "end_datetime": "2025-01-10T15:30+05:30",
+      "status": "CONFIRMED"
+    },
+    {
+      "booking_id": "booking_03",
+      "mentor_id": "mentor_01",
+      "mentee_id": "mentee_01",
+      "start_datetime": "2025-01-15T18:00+05:30",
+      "end_datetime": "2025-01-15T19:00+05:30",
+      "status": "CONFIRMED"
+    },
+    {
+      "booking_id": "booking_04",
+      "mentor_id": "mentor_01",
+      "mentee_id": "mentee_01",
+      "start_datetime": "2025-01-17T16:00+05:30",
+      "end_datetime": "2025-01-17T17:00+05:30",
+      "status": "CANCELLED"
+    },
+    {
+      "booking_id": "booking_05",
+      "mentor_id": "mentor_01",
+      "mentee_id": "mentee_01",
+      "start_datetime": "2025-01-20T10:00:00Z",
+      "end_datetime": "2025-01-20T11:00:00Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "booking_id": "booking_06",
+      "mentor_id": "mentor_02",
+      "mentee_id": "mentee_01",
+      "start_datetime": "2025-01-21T09:00-03:00",
+      "end_datetime": "2025-01-21T10:00-03:00",
+      "status": "CONFIRMED"
+    }
+  ],
+  "draft_booking": {
+    "mentor_id": "mentor_02",
+    "mentee_id": "mentee_01",
+    "selected_date": "2025-01-23",
+    "slot_start": "14:00",
+    "slot_end": "15:00"
+  },
+  "mentor_availability_overrides": [
+    {
+      "mentor_id": "mentor_01",
+      "date": "2025-01-10",
+      "slot_start": "14:00",
+      "slot_end": "15:00",
+      "reason": "Emergency leave"
+    },
+    {
+      "mentor_id": "mentor_02",
+      "date": "2025-01-23",
+      "slot_start": "14:00",
+      "slot_end": "15:00",
+      "reason": "Travel conflict"
+    }
+  ]
+}
+
